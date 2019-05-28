@@ -60,35 +60,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MyAsset\Scripts\AI.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Bullet.cs" />
     <Compile Include="Assets\MyAsset\Scripts\Canvas.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\FlashLight.cs" />
-    <Compile Include="Assets\MyAsset\Scripts\GameBase.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\BaseController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\FlashLight.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\GameBase.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\ObjManager.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\Timer.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Controllers\WeaponController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Enemy.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Gun.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\InputController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Interface.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Main.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Weapons.cs" />
+    <Compile Include="Assets\Nokobot\ModernGuns_Handgun\Demo Assets\SimpleShoot.cs" />
+    <None Include="Assets\MedievalTownExteriors\Readme.txt" />
+    <None Include="Assets\BlackantMasterStudio\The Shed\Shed_Anims.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -265,13 +280,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/user/Desktop/Unity/hw/HomeWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/user/Documents/Unitylvl2/HomeWork/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
