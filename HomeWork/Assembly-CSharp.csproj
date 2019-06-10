@@ -69,6 +69,9 @@
     <Compile Include="Assets\MyAsset\Scripts\Controllers\ObjManager.cs" />
     <Compile Include="Assets\MyAsset\Scripts\Controllers\Timer.cs" />
     <Compile Include="Assets\MyAsset\Scripts\Controllers\WeaponController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Debug\DebugScript.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Debug\pth.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\Door.cs" />
     <Compile Include="Assets\MyAsset\Scripts\Enemy.cs" />
     <Compile Include="Assets\MyAsset\Scripts\Gun.cs" />
     <Compile Include="Assets\MyAsset\Scripts\InputController.cs" />
